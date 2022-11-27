@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type:none;
+    text-decoration: none;
+    color: #fff;
+}
+.card{
+    width: 500px;
+    height: auto;
+    margin: 80px auto;
+    position: relative;
+}
+.card figure img{
+    width: 100%;
+    height: auto;
+}
+.card figcaption {
+    position: absolute;
+    bottom: 5px;
+}
+.card figcaption h3{
+    width: 250px;
+    height: 30px;
+    background-color: #1894a0cc;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.card figcaption p {
+    width: 100%;
+    background-color: #000000cc;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+}
+.card i {
+    font-size:30px ;
+    position: absolute;
+    bottom: 50%;
+    cursor: pointer;
+}
+.card .icon-left{
+    left: 20px;
+}
+.card .icon-right{
+    right: 20px;
+}
